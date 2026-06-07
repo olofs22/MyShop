@@ -14,7 +14,7 @@ jobs:
           dotnet-version: 10.0.x
 
       - name: Restore
-        run: dotnet restore backend/MyShop.sln
+        run: dotnet restore backend/MyShop.slnx
 
       - name: Build
         run: dotnet build backend/MyShop.sln --no-restore --configuration Release
