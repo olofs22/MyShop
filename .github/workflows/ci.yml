@@ -17,7 +17,7 @@ jobs:
         run: dotnet restore backend/MyShop.slnx
 
       - name: Build
-        run: dotnet build backend/MyShop.sln --no-restore --configuration Release
+        run: dotnet build backend/MyShop.slnx --no-restore --configuration Release
 
       - name: Test
-        run: dotnet test backend/MyShop.sln --no-build --configuration Release
+        run: dotnet test backend/MyShop.slnx --no-build --configuration Release
