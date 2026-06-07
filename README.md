@@ -3,7 +3,7 @@
 Full stack CRUD app: .NET 10 Web API (Clean Architecture) + React frontend + xUnit tests.
 
 ## Live frontend
-https://olofs22.github.io/MyShop/
+[https://olofs22.github.io/MyShop/](https://olofs22.github.io/MyShop/)
 (The local API is not publicly hosted, so the live site shows an error when fetching data.)
 
 ## Tech
